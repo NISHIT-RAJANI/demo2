@@ -1,0 +1,211 @@
+- Introduce your self
+
+- Projects
+
+- Git & GitHub
+
+- Basics of Docker
+
+- OSI layer
+
+- find vs grep 
+
+- Bucket policy
+
+- systemd and systemctl
+
+
+What is cloud computing - over the use of internet we can create resources store data retrive 
+data we can create server
+
+- Booting process
+1) BIOS
+BIOS stands for Basic Input/Output System
+Searches, loads, and executes the boot loader program.
+Once the boot loader program is detected and loaded into the memory, BIOS gives the control to it.
+So, in simple terms BIOS loads and executes the MBR boot loader.
+
+2) MBR
+MBR stands for Master Boot Record.
+It contains information about GRUB (or LILO in old systems).
+So, in simple terms MBR loads and executes the GRUB boot loader
+
+3) GRUB (Grand Unified Bootloader)
+If you have multiple kernel images installed on your system, you can choose which one to be executed.
+GRUB displays a splash screen, waits for few seconds, if you don’t enter anything, it loads the 
+default kernel image as specified in the grub configuration file.
+GRUB just loads and executes Kernel and initrd images
+
+4) Kernel
+Kernel executes the /sbin/init program
+
+5) Init
+
+6) Runlevel programs
+The GRUB (Grand Unified Bootloader) is a tool for booting and loading operating 
+system kernels and the default bootloader for systems based on the Linux kernel. 
+
+
+ML deployment with cloud
+
+
+Sorry, I am not aware about this.
+
+
+- package manager is a group of software tools. It automates the installation process, upgrading
+ process, configuration process, and removing process of the computer programs for an operating system 
+ of the computer in an efficient manner. 
+
+- Apt (Advanced Package Tool) package management system is a set of tools to download, install, 
+remove, upgrade, configure and manage Debian packages, and therefore all software installed on a 
+Debian system.
+
+- Dpkg is a base package management system for the Debian Linux family, it is used to install, 
+remove, store and provide information about .deb packages.
+
+Absolute path - Described in relation to root. starts with /
+Relative path - path is relative to your current working directory
+
+cd- : switch last current directory.
+
+Less command is a Linux utility that can be used to read the contents of a text file one 
+page(one screen) at a time. 
+
+
+- Web server : It is a computer that runs website. Basic objective of web server is store, process
+and deliver web pages to user. This inter communication done using http. because browser only know HTML
+
+Apache http server
+NGINx
+Lighttpd Web Server
+Apache tomcat
+NodeJS
+
+- Install Apache Server
+sudo apt install apache2 - Debian/Ubuntu
+sudo yum install httpd - RHEL/CentOS
+
+- Check Apache Version
+sudo httpd -v
+
+- Start Apache Service
+sudo systemctl start httpd (for systemd)
+sudo systemctl start apache2 (for systemd)
+
+- Enable Apache Service
+sudo systemctl enable httpd
+sudo systemctl enable apache2
+
+- View Apache Service Status
+sudo systemctl status httpd
+sudo systemctl status apache2
+
+
+Command line utilities are tools that you can run on the command line of a computer.
+
+glacier vs deep
+
+
+sns vs sqs
+Simple Notification Service (HTTP,HTTPS,Email,SMS,Lambda)
+It allows to send single message or same message send to multple peoples.
+Reliable - Atleast store 3 copy of the data store in multiple az in one region.
+We can use with Auto scaling.
+SNS topic - In that we creating our message.
+Amazon Resource Names (ARNs) uniquely identify AWS resources.
+1 SNS topic have multiple subscriber. And if requirment is some subscriber to send SMS some to send 
+Email then we can send at same time.
+Alternative of SNS Amazon MQ (Managed Queue Service), Apache kafka.
+
+
+
+
+how to find how much storage is occiuped in disk
+df command
+
+how to take backup in linux.
+cp --backup <filename> <destinationDirectory>
+
+which command is used if we want a perticular data from file.
+
+
+how to find directory using space
+du
+
+ps aux
+port - sudo netstat -tulpn
+
+Docker
+One App in one server. They did'nt have solution multiple application runs on server. If application load is 
+increase you need to buy another server. And you need other application run on server then also need to buy server.4
+This is not for cost.
+
+VMWare solve this problem.  
+Virtual machine solve problem like you can run multiple app in same server.
+The biggest problem with this is vm require their own OS.
+OS use like your cpu, ram and some hdd. It is still not perfect. you need to have new os if you want to use vm  
+
+
+Data Migration 
+Scalability and Elasticity
+
+
+
+1. C vs. C++
+2. Which of these is bottom up approach?
+3. Describe C++ (features of C++)
+Why do you want to join us?
+Would you be able to work the night shift?
+Which cloud solution you have worked on in the past?
+Most stressful situations and how handled it
+Types of clouds
+What is cloud computing
+Why go for cloud
+What is IAAS PAAS SAAS
+Nepotism
+Coding was on to sort Alpha Numeric String in a given order and to check the validity of a string
+How is data privacy important?
+Which language supports bottom up approach
+What is the difference between a coder and a programmer?
+what is oops? Explain
+Why cloud engineer?
+why we should hire you
+Introduce yourself.
+Which Language are you comfortable with.
+Which of the C and C++ follow the bottom-up approach?
+What is the difference between C and C++?
+What are the features of OOP?
+Can you relocate?
+Can you work in shifts?
+Introduce yourself
+Why interested in ML/AI?
+How did you get interested in the cloud?
+Why Hanu?
+Whats are the services of the cloud?
+Can you relocate?
+Can you work in shifts?
+Did you work on any projects in the cloud?
+Why CSE?
+What is your future aspiration?
+Tell me about your family background.
+Do you have any siblings?
+
+
+
+cloud is service that is used to store data over the internet
+
+RDS - Relational form to store data. Row and col
+
+Strength - Quick learner, self motivated, Dicipline, talkative
+
+vertulization - create machine over the internet
+
+container to store data 
+
+Github - we can store code. It is distributed system for versioning 
+
+In computer we can can't store large amount of data. ANd using cloud we can access our data without any losses
+
+dedicated for my work. I have good knowledge of 
+
+salary is not essential thing for me. Growth oppotunity is more important
